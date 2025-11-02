@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "nombre": "Camiseta",
+    "precio": 19.99,
+    "descripcion": "Camiseta blanca de algodón 100% con estampado frontal.",
+    "disponible": true,
+    "fecha_ingreso": "2025-11-31T16:30:00Z"
+  },
+  {
+    "id": 2,
+    "nombre": "Pantalon Jeans Levis 501",
+    "precio": 30.05,
+    "descripcion": "Pantalon con bordado clásico de Levi's en el bolsillo trasero.",
+    "disponible": true,
+    "fecha_ingreso": "2025-11-27T18:20:00Z"
+  },
+  {
+    "id": 3,
+    "nombre": "Vestido Verano Floral",
+    "precio": 32.02,
+    "descripcion": "Vestido talla unica.",
+    "disponible": false,
+    "fecha_ingreso": "2025-11-15T14:16:00Z"
+  },
+  {
+    "id": 4,
+    "nombre": "Falda Larga Negra",
+    "precio": 15.75,
+    "descripcion": "Falda talla unica.",
+    "disponible": true,
+    "fecha_ingreso": "2025-11-24T14:30:00Z"
+  },
+  {
+    "id": 5,
+    "nombre": "Calcetas Deportivas Nike",
+    "precio": 25.50,
+    "descripcion": "Calcetas unisex de alta calidad para deporte y uso diario.",
+    "disponible": true,
+    "fecha_ingreso": "2025-11-20T14:30:00Z"
+  },
+  {
+    "id": 6,
+    "nombre": "Ropa Interior Calvin Klein",
+    "precio": 28.99,
+    "descripcion": "Ropa interior para Hombre, paquete de 3 unidades, algodón suave y elástico.",
+    "disponible": true,
+    "fecha_ingreso": "2025-11-20T14:30:00Z"
+  },
+  {
+    "id": 7,
+    "nombre": "Blusa Seda Zara",
+    "precio": 12.49,
+    "descripcion": "Blusa roja de seda talla unica.",
+    "disponible": true,
+    "fecha_ingreso": "2025-11-20T14:30:00Z"
+  },
+  {
+    "id": 8,
+    "nombre": "Lentes de sol Ray-Ban Aviator",
+    "precio": 50.00,
+    "descripcion": "Lentes de sol con protección UV y diseño clásico aviador.",
+    "disponible": true,
+    "fecha_ingreso": "2025-11-20T14:30:00Z"
+  },
+  {
+    "id": 9,
+    "nombre": "Chaqueta de cuero",
+    "precio": 49.99,
+    "descripcion": "Chauqeta de cuero genuino con forro interior y múltiples bolsillos.",
+    "disponible": false,
+    "fecha_ingreso": "2025-11-20T14:30:00Z"
+  }
+
+]

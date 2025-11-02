@@ -1,0 +1,54 @@
+### Listar los Productos
+
+GET http://localhost:5000/productos
+
+### Obtener un Producto por ID
+GET http://localhost:5000/productos/3
+
+### Buscar Productos por Nombre
+GET http://localhost:5000/productos/search?nombre=Sony
+
+### Buscar Productos por Precio
+GET http://localhost:5000/productos/search?precio=18999
+
+### Buscar Productos por Nombre y Precio
+GET http://localhost:5000/productos/search?nombre=Sony&precio=4999
+
+### Crear un Producto
+POST http://localhost:5000/productos
+Content-Type: application/json
+
+{
+  "nombre": "Xbox Controller",
+  "precio": 1290,
+  "descripcion": "Control inalámbrico con diseño ergonómico y compatibilidad multiplataforma."
+}
+
+
+### Actualizar un Producto por ID
+PUT http://localhost:5000/productos/11
+Content-Type: application/json
+
+{
+  "nombre": "Xbox Pro Controller",
+  "precio": 3150.49,
+  "disponible": 0,
+  "descripcion": "Control inalámbrico con diseño ergonómico y compatibilidad multiplataforma. versión Pro con accesorios y botones extra."
+}
+
+### Borrar un Producto por ID
+DELETE http://localhost:5000/productos/12
+
+### Obtener los Productos Disponibles
+GET http://localhost:5000/productos/disponibles
+
+### Crear otro Producto
+POST http://localhost:5000/productos
+Content-Type: application/json
+
+{
+   "nombre": "Nintendo Switch OLED",
+   "precio": 10500.00,
+   "disponible": false
+}
+//fallará por falta de descripción

@@ -1,0 +1,19 @@
+{
+    "name": "tarea-api-productos",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"No tests specified\" && exit 0"
+    },
+    "keywords": [],
+    "author": "Kathlyn",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^5.1.0",
+        "express.js": "^1.0.0",
+        "firebase-functions": "^6.3.2"
+    },
+    "description": "API de gestión de productos"
+}
